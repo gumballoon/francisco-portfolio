@@ -1,0 +1,5 @@
+@media (width >= 64rem) {
+    .AboutMe {
+        background-image: linear-gradient(to right, #F5F7FA 66.6%, #223843 33.3%);
+    }
+}

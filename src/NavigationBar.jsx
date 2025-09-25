@@ -1,0 +1,14 @@
+import './NavigationBar.css';
+
+export default function NavigationBar({ openMenu }) {
+    return (
+        <nav className="NavigationBar flex justify-end pt-15 pr-7 lg:pt-14.5 lg:pr-12 w-full h-min fixed inset-0">
+            <svg className="group hover:cursor-pointer" onClick={openMenu} width="31" height="14" viewBox="0 0 31 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M9.09131 9.59788L27.0913 9.59788" stroke="#223843" stroke-width="2" stroke-linecap="round"/>
+                <path d="M11.8916 12.2114L29.8916 12.2114" stroke="#F5F7FA" stroke-width="2" stroke-linecap="round"/>
+                <path d="M1.07227 1.47754L27.0911 1.47811" stroke="#223843" stroke-width="2" stroke-linecap="round"/>
+                <path d="M3.87256 4.09106L29.8914 4.09164" stroke="#F5F7FA" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+        </nav>
+    )
+}

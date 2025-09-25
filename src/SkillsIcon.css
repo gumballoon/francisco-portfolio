@@ -1,0 +1,27 @@
+.SkillsIcon svg path {
+    transition: fill 300ms ease;
+}
+
+.SkillsIcon svg:hover path[fill="#223843"], .SkillsIcon svg:hover g[fill="#223843"]{
+    fill: #6DB1BF;
+}
+
+.SkillsIcon svg:hover path[fill="#48778F"] {
+    fill: #86dced;
+}
+
+.SkillsIcon svg:hover path[fill="#132026"] {
+    fill: #50828C;
+}
+
+.SkillsIcon svg:hover stop[stop-color="#223843"] {
+    stop-color: #6DB1BF;
+}
+
+.SkillsIcon svg:hover stop[stop-color="#48778F"] {
+    stop-color: #86dced;
+}
+
+.SkillsIcon svg:hover stop[stop-color="#132026"] {
+    stop-color: #50828C;
+}

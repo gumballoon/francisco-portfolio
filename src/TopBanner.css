@@ -1,0 +1,40 @@
+.TopBanner a:hover {
+    cursor: pointer;
+}
+
+.TopBanner a:hover svg path {
+    fill: #6DB1BF;
+}
+
+.TopBanner svg path {
+    transition: fill 200ms ease;
+}
+
+.TopBanner svg {
+    margin-bottom: 0.25rem;
+}
+
+.TopBanner .PhotoBox{
+    background-image: 
+        url("./assets/shape-waves-beige.svg"),
+        url("./assets/shape-rectangle.svg"),
+        url("./assets/shape-waves-teal.svg"),
+        url("./assets/shape-corner.svg");
+    background-repeat: no-repeat;
+    background-position: 
+        bottom 1.8rem left 88%,    
+        top 5.5rem left 60%,
+        top 3rem left 15%,
+        top 3.5rem left 88%;
+    background-size: 
+        10%,    
+        60%, 
+        10%,
+        12%;
+}
+
+@media (width >= 48rem) {
+    .TopBanner {
+        background-image: linear-gradient(to right, #F5F7FA 66.6%, #223843 33.3%);
+    }
+}

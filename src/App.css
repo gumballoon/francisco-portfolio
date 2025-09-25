@@ -1,0 +1,14 @@
+.Projects span, .AboutMe span {
+    font-weight: 600;
+}
+
+.Projects a.link, .AboutMe a.link {
+    font-weight: 600;
+    text-decoration: underline #6DB1BF 2px;
+    text-underline-offset: 0.20rem;
+    transition: all ease 200ms;
+}
+
+.Projects a.link:hover, .AboutMe a.link:hover {
+    color: #6DB1BF;
+}
