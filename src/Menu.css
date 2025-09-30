@@ -1,0 +1,25 @@
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes spin-in {
+    0% {
+        transform: rotate(-90deg);
+    }
+    100% {
+        transform: rotate(0);
+    }
+}
+
+.ShowMenu{
+    animation: 300ms fade-in forwards;
+}
+
+.Menu .ShowMenuButton {
+    animation: 300ms spin-in forwards;
+}

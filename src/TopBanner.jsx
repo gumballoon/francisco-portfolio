@@ -5,9 +5,7 @@ import IconGithub from "./assets/icon-top-github.svg?react";
 import IconLinkedIn from "./assets/icon-top-linkedIn.svg?react";
 import IconResume from "./assets/icon-top-resume.svg?react";
 import IconEmail from "./assets/icon-top-email.svg?react";
-
 import PhotoTopBanner from "./assets/photo-top-banner.jpg";
-
 import ShapeCorner from './assets/shape-corner.svg';
 import ShapeWavesBeige from './assets/shape-waves-beige.svg';
 import ShapeWavesTeal from './assets/shape-waves-teal.svg';
@@ -48,7 +46,7 @@ export default function TopBanner() {
                 </div>
 
                 {/* Photo Box */}
-                <div className='bg-gb-navy-500 w-full mt-8 py-18 md:bg-transparent'>
+                <div className='z-0 bg-gb-navy-500 w-full mt-8 py-18 md:bg-transparent'>
                     <div className='relative flex items-center'>
                         <img src={ShapeCorner} alt="" className='absolute -top-5 right-[15%] w-[10%] md:right-12 md:w-[15%]'/>
                         <img src={ShapeWavesTeal} alt="" className='absolute z-20 -top-5 md:-top-9 left-[15%] md:-left-23 w-[10%] md:w-[17.5%]'/>

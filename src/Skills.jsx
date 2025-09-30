@@ -22,7 +22,7 @@ import IconNotion from "./assets/icon-skills-notion.svg?react";
 
 export default function Skills() {
     return (
-        <section className="Skills px-8 pt-16 max-w-[1280px] mx-auto" id="Skills">
+        <section className="Skills px-8 pt-16 max-w-[1280px] mx-auto">
             <h2 className="poppins text-3xl font-bold leading-normal tracking-wide mb-4 md:text-[2.25rem] xl:text-[2.5rem] transition-all duration-300">
                 Skills
             </h2>
