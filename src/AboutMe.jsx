@@ -13,7 +13,7 @@ export default function AboutMe() {
                     <h2 className="poppins text-3xl font-bold leading-normal tracking-wider md:text-[2.25rem] xl:text-[2.5rem] transition-all duration-300">About Me</h2>
                 
                     <p className="mt-4">
-                        I’m a <span>career-switcher</span> from Lisbon (Portugal) who spent years as a <span>sound engineer</span>. Working in post-production studios and as a freelancer, I developed a <span>strong work ethic</span>, a <span>commitment to quality</span>, and the skills to <span>communicate clearly and proactively</span> with clients and team members.
+                        I’m a <span>career-switcher</span> from Lisbon (Portugal) who spent years as a <span><a href="https://linktr.ee/franciscocristina" target="_blank" className="link">sound engineer</a></span>. Working in post-production studios and as a freelancer, I developed a <span>strong work ethic</span>, a <span>commitment to quality</span>, and the skills to <span>communicate clearly and proactively</span> with clients and team members.
                         Now I bring that same <span>dedication</span>, <span>attention to detail</span>, and <span>proactive mindset</span> to web development.
                     </p>
                     
