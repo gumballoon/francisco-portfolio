@@ -36,13 +36,20 @@
 }
 
 .wavy-teal-500 {
-    text-decoration: underline wavy #6DB1BF;
-    text-underline-offset: 0.15rem;
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: #6DB1BF;
+  -webkit-text-decoration-color: #6DB1BF; /* old Safari fallback */
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.15rem;
 }
 
 .underline-teal-500 {
-    text-decoration: underline #6DB1BF 2px;
-    text-underline-offset: 0.20rem;
+  text-decoration-line: underline;
+  text-decoration-color: #6DB1BF;
+  -webkit-text-decoration-color: #6DB1BF; /* old Safari fallback */
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.20rem;
 }
 
 .arrow path {

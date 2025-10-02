@@ -10,7 +10,7 @@ import IconHackerRank from './assets/icon-contact-hackerrank.svg?react';
 export default function Contact() {
     return (
         <footer className="bg-gb-navy-500 text-gb-neutral-100 w-full mt-16">
-            <div className='px-8 py-16 md:grid md:grid-cols-2 md:gap-1 xl:flex xl:gap-16 lg:items-end max-w-[1280px] mx-auto'>
+            <div className='px-8 py-16 md:grid md:grid-cols-2 md:gap-1 xl:flex xl:gap-16 max-w-[1280px] mx-auto'>
                 <div className='md:col-'>
                     <h2 className="poppins text-3xl font-bold leading-normal tracking-wider md:text-[2.25rem] xl:text-[2.5rem] transition-all duration-300">Contact</h2>
                     
@@ -38,7 +38,7 @@ export default function Contact() {
                     </div>
                 </div>
 
-                <div className='col-span-2 xl:col-span-1'>
+                <div className='col-span-2 xl:col-span-1 xl:self-end'>
                     <p className='font-extralight my-12 md:mt-6 xl:mb-4'>
                         Designed in <span className='font-normal'>Figma</span> and coded in <span className='font-normal'>Visual Studio Code</span>.
                         Built with <span className='font-normal'>React</span> and <span className='font-normal'>Tailwind CSS</span>, deployed with <span className='font-normal'>Github Pages</span>. 

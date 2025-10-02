@@ -1,4 +1,4 @@
-import { useState, useRef } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import './App.css'
 
 import MenuButton from './MenuButton';
@@ -10,6 +10,10 @@ import Skills from './Skills';
 import Contact from './Contact';
 
 export default function App() {
+  useEffect(() => {
+    console.log("👋 Hey there! Curious about the code?\n Take a look around: https://github.com/gumballoon/francisco-portfolio");
+  }, []);
+
   const [isMenuVisible, setIsMenuVisible] = useState(false);
 
   const startRef = useRef(null);
@@ -28,7 +32,7 @@ export default function App() {
 
   return (
     <div className='text-gb-navy-500 mx-auto min-h-[400px]'>
-      <div className={(isMenuVisible && 'blur-[3px] lg:blur-none z-0')}>
+      <div className={(isMenuVisible ? 'blur-[3px] lg:blur-none z-0' : '')}>
         <div ref={startRef}>
           <TopBanner />
         </div>

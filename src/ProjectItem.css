@@ -38,6 +38,9 @@
         margin-top: -10%;
         opacity: 0;
     }
+    25% {
+        opacity: 0;
+    }
     100% {
         margin-top: 0;
         opacity: 1;

@@ -4,7 +4,10 @@
 
 .Projects a.link, .AboutMe a.link {
     font-weight: 600;
-    text-decoration: underline #6DB1BF 2px;
+    text-decoration-line: underline;
+    text-decoration-color: #6DB1BF;
+    -webkit-text-decoration-color: #6DB1BF; /* old Safari fallback */
+    text-decoration-thickness: 2px;
     text-underline-offset: 0.20rem;
     transition: all ease 200ms;
 }
