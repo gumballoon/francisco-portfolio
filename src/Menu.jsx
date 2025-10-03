@@ -11,7 +11,7 @@ export default function Menu({ isMenuVisible, closeMenu, startRef, projectsRef, 
                         <path d="M4.95833 4.95831L12.0417 12.0416M4.95833 12.0416L12.0417 4.95831" stroke="#EAE0D5" stroke-width="1.41667" stroke-linecap="round" stroke-linejoin="round"/>
                     </svg>
 
-                    <div className="my-18 w-full flex flex-col items-center gap-12 lg:gap-15">
+                    <div className="my-16 w-full flex flex-col items-center gap-10 lg:gap-15">
                         <div className="flex flex-col items-center">
                             <a className='relative px-2 poppins font-semibold text-xl tracking-[0.15rem] flex flex-col items-center w-max group peer hover:cursor-pointer' onClick={() => scrollTo(startRef)}>
                                 Start

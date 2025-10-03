@@ -33,7 +33,7 @@ export default function Contact() {
                         <div>
                             < ContactItem SVG={IconCssBattle} description={'CSSBattle'} title={'@gumballoon'} link={'https://cssbattle.dev/player/gumballoon'} />
 
-                            < ContactItem SVG={IconHackerRank} description={'HackerRank'} title={'@gumballoon'} link={'https://www.frontendmentor.io/profile/gumballoon'} />
+                            < ContactItem SVG={IconHackerRank} description={'HackerRank'} title={'@gumballoon'} link={'https://www.hackerrank.com/profile/gumballoon'} />
                         </div>
                     </div>
                 </div>
