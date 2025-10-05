@@ -34,12 +34,14 @@ export default function ProjectItem({ image=DefaultImage, title, date, descripti
                     </div>
                     <p className='leading-relaxed lg:leading-loose transition-all duration-300'>{description}</p>
                 </div>
-                <h3 className="text-lg lg:text-2xl mt-4 lg:mt-0 text-right lg:text-start order-2 lg:order-1">
-                    <span className="font-semibold lg:font-bold mr-2">
+                <div className={`flex flex-col lg:flex-row lg:justify-start flex-wrap order-2 lg:order-1 text-center lg:text-star mt-4 lg:mt-0 ${isViewCollapsed ? 'items-center' : 'items-end'}`}>
+                    <h3 className="text-xl lg:text-2xl font-semibold lg:font-bold lg:mr-2">
                         {title}
-                    </span> 
-                    [{date}]
-                </h3>
+                    </h3>
+                    <p className="font-light text-lg lg:text-xl">
+                        {date}
+                    </p> 
+                </div>
             </div>
         </div>
     )

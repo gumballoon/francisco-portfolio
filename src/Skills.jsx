@@ -42,10 +42,10 @@ export default function Skills() {
 
                 <div>
                     < Divider title={'frontend'}/>
-                    <div className="w-full grid grid-cols-4 gap-4 items-center justify-between mt-6 px-6 text-gb-neutral-500 text-sm">
-                        < SkillsIcon SVG={IconReact} width={'50%'} description={'React'}/>
-                        < SkillsIcon SVG={IconTailwind} width={'50%'} description={'TailwindCSS'}/>
-                        < SkillsIcon SVG={IconBootstrap} width={'50%'} description={'Bootstrap'}/>
+                    <div className="w-full grid grid-cols-4 gap-4 items-center justify-between mt-6 px-5 text-gb-neutral-500 text-sm">
+                        < SkillsIcon SVG={IconReact} width={'55%'} description={'React'}/>
+                        < SkillsIcon SVG={IconTailwind} width={'55%'} description={'TailwindCSS'}/>
+                        < SkillsIcon SVG={IconBootstrap} width={'55%'} description={'Bootstrap'}/>
                         < SkillsIcon SVG={IconFigma} width={'50%'} description={'Figma'}/>
                     </div>
                 </div>
@@ -56,7 +56,7 @@ export default function Skills() {
                         < SkillsIcon SVG={IconNode} width={'50%'} description={'Node.js'}/>
                         < SkillsIcon SVG={IconExpress} width={'50%'} description={'Express'}/>
                         < SkillsIcon SVG={IconMongo} width={'55%'} description={'MongoDB'}/>
-                        < SkillsIcon SVG={IconMongoose} width={'60%'} description={'Mongoose'}/>
+                        < SkillsIcon SVG={IconMongoose} width={'65%'} description={'Mongoose'}/>
                         < SkillsIcon SVG={IconMySql} width={'50%'} description={'MySQL'}/>
                     </div>
                 </div>

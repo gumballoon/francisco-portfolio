@@ -38,13 +38,19 @@ export default function Contact() {
                     </div>
                 </div>
 
-                <div className='col-span-2 xl:col-span-1 xl:self-end'>
-                    <p className='font-extralight my-12 md:mt-6 xl:mb-4'>
-                        Designed in <span className='font-normal'>Figma</span> and coded in <span className='font-normal'>Visual Studio Code</span>.
-                        Built with <span className='font-normal'>React</span> and <span className='font-normal'>Tailwind CSS</span>, deployed with <span className='font-normal'>Github Pages</span>. 
-                        Headings are set in the <span className='font-normal'>Poppins</span> typeface, while body text uses <span className='font-normal'>Inter</span>.
-                    </p>
-                    <p className='text-lg font-extralight xl:text-end'>© Francisco Cristina 2025</p>
+                <div className="col-span-2 xl:col-span-1 xl:self-end">
+                <p className="font-extralight my-12 md:mt-6 xl:mb-4">
+                    Designed in <span className="font-normal">Figma</span> and coded in{" "}
+                    <span className="font-normal whitespace-nowrap">Visual Studio Code</span>.
+                    Built with <span className="font-normal">React</span> and{" "}
+                    <span className="font-normal">Tailwind CSS</span>, deployed with{" "}
+                    <span className="font-normal">Github Pages</span>. Headings are set in the{" "}
+                    <span className="font-normal">Poppins</span> typeface, while body text uses{" "}
+                    <span className="font-normal">Inter</span>.
+                </p>
+                <p className="text-lg font-extralight xl:text-end">
+                    © Francisco Cristina 2025
+                </p>
                 </div>
             </div>
         </footer>

@@ -1,7 +1,7 @@
 import { useState, useRef, useEffect } from 'react';
 import './App.css'
 
-import MenuButton from './MenuButton';
+import Navbar from './Navbar';
 import Menu from './Menu';
 import TopBanner from './TopBanner';
 import Projects from './Projects';
@@ -49,7 +49,7 @@ export default function App() {
           <Contact />
         </div>
       </div>
-      < MenuButton isMenuVisible={isMenuVisible} openMenu={() => setIsMenuVisible(true)} />
+      < Navbar isMenuVisible={isMenuVisible} openMenu={() => setIsMenuVisible(true)} />
       < Menu isMenuVisible={isMenuVisible} closeMenu={() => setIsMenuVisible(false)} startRef={startRef} projectsRef={projectsRef} aboutRef={aboutRef} skillsRef={skillsRef} contactRef={contactRef} scrollTo={scrollTo}/>
     </div>
   )

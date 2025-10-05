@@ -12,6 +12,6 @@
     }
 }
 
-.MenuButton .OpenMenu{
+.Navbar .OpenMenu{
     animation: 300ms spin;
 }

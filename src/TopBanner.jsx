@@ -13,10 +13,10 @@ import ShapeWavesTeal from './assets/shape-waves-teal.svg';
 export default function TopBanner() {
     return (
         <section className='TopBanner' id='TopBanner'>
-            <div className='max-w-[1280px] mx-auto md:grid md:grid-cols-3 items-center'>
+            <div className='max-w-[1280px] mx-auto md:grid md:grid-cols-3 items-center md:mt-18'>
                 {/* Text Box */}
                 <div className='px-8 md:pl-8 md:pr-40 md:py-8 md:col-span-2'>
-                    <div className='py-32'>
+                    <div className='pt-32 pb-20 md:pt-24 md:pb-24'>
                         <h1 className='poppins text-4xl font-bold leading-normal tracking-wider mb-4 md:text-[2.5rem] xl:text-[3rem] transition-all duration-300'>
                             Francisco Cristina
                         </h1>
@@ -34,7 +34,7 @@ export default function TopBanner() {
                         </p>
                     </div>
 
-                    <div className='grid grid-cols-4 w-60 gap-8 items-center mb-0 text-gb-neutral-500 text-sm'>
+                    <div className='grid grid-cols-4 w-60 gap-6 items-center mb-0 text-gb-neutral-500 text-sm'>
                         < TopBannerIcon SVG={IconGithub} description={'Github'} link={"https://github.com/gumballoon"} />
 
                         < TopBannerIcon SVG={IconLinkedIn} description={'LinkedIn'} link={"https://www.linkedin.com/in/francisco-cristina/"} />
