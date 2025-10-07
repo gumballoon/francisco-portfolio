@@ -21,7 +21,14 @@ export default function App() {
   }, []);
 
   function handleLoad() {
-    setTimeout(() => setIsContentLoaded(true), 2500);
+    setTimeout(() => {
+      setIsContentLoaded(true);
+      window.scrollTo({
+        top: 0,
+        left: 0,
+        behavior: "smooth"
+      })
+    }, 2500);
   }
 
   useEffect(() => {
@@ -47,41 +54,36 @@ export default function App() {
     });
   }
 
-  return isContentLoaded ? (
-    <div className="text-gb-navy-500 mx-auto min-h-[400px]">
-      <div className={isMenuVisible ? "blur-[3px] lg:blur-none z-0" : ""}>
-        <div ref={startRef}>
-          <TopBanner />
+  return (
+    <>
+      <div className="text-gb-navy-500 mx-auto min-h-[400px]">
+        <div className={isMenuVisible ? "blur-[3px] lg:blur-none z-0" : ""}>
+          <div ref={startRef}>
+            <TopBanner />
+          </div>
+          <div ref={projectsRef}>
+            <Projects />
+          </div>
+          <div ref={aboutRef}>
+            <AboutMe />
+          </div>
+          <div ref={skillsRef}>
+            <Skills />
+          </div>
+          <div ref={contactRef}>
+            <Contact />
+          </div>
         </div>
-        <div ref={projectsRef}>
-          <Projects />
-        </div>
-        <div ref={aboutRef}>
-          <AboutMe />
-        </div>
-        <div ref={skillsRef}>
-          <Skills />
-        </div>
-        <div ref={contactRef}>
-          <Contact />
-        </div>
+        <Navbar
+          isMenuVisible={isMenuVisible}
+          openMenu={() => setIsMenuVisible(true)}
+        />
+        <Menu
+          isMenuVisible={isMenuVisible} closeMenu={() => setIsMenuVisible(false)} startRef={startRef} projectsRef={projectsRef} aboutRef={aboutRef} skillsRef={skillsRef} contactRef={contactRef} scrollTo={scrollTo}
+        />
       </div>
-      <Navbar
-        isMenuVisible={isMenuVisible}
-        openMenu={() => setIsMenuVisible(true)}
-      />
-      <Menu
-        isMenuVisible={isMenuVisible}
-        closeMenu={() => setIsMenuVisible(false)}
-        startRef={startRef}
-        projectsRef={projectsRef}
-        aboutRef={aboutRef}
-        skillsRef={skillsRef}
-        contactRef={contactRef}
-        scrollTo={scrollTo}
-      />
-    </div>
-  ) : (
-    <Preloader />
+      
+      {!isContentLoaded && <Preloader />}
+    </>
   );
 }
