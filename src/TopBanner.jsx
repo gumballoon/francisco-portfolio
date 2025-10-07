@@ -53,7 +53,7 @@ export default function TopBanner() {
                         <img src={ShapeWavesBeige} alt="" className='absolute z-20 -bottom-9 right-[15%] w-[10%] md:right-13 md:w-[17.5%] md:-bottom-10'/>
                         {/* Frame */}
                         <div className='absolute z-0 w-[60%] md:w-[100%] h-full border-2 border-gb-teal-500 top-5 md:top-3.5 left-[22.5%] md:-left-16.5'/>
-                        <img src={PhotoTopBanner} alt="Francisco Cristina portfolio portrait" className='z-10 w-[60%] mx-auto md:w-[100%] md:-ml-20'/>
+                        <img src={PhotoTopBanner} alt="Francisco Cristina photo, landescape" className='z-10 w-[60%] mx-auto md:w-[100%] md:-ml-20'/>
                     </div>
                 </div>
             </div>
