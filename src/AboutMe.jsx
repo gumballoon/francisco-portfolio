@@ -1,7 +1,6 @@
 import './AboutMe.css';
 
 import IconArrow from './assets/icon-arrow-sm.svg?react';
-import PhotoAboutMe from './assets/photo-about-me.jpg';
 import ShapeCorner from './assets/shape-corner.svg';
 
 export default function AboutMe() {
@@ -41,7 +40,7 @@ export default function AboutMe() {
                     <img src={ShapeCorner} alt="" className='absolute z-0 -top-5 right-9 w-15'/>
                     {/* Frame */}
                     <div className='absolute z-0 w-full h-full border-2 border-gb-teal-500 top-5 -left-15'/>
-                    <img src={PhotoAboutMe} alt="" className='z-0 w-4xs -ml-20'/>
+                    <img src="/photo-about-me.jpg" alt="Francisco Cristina portfolio photo, portrait" className='z-0 w-4xs -ml-20'/>
                 </div>
             </div>
         </div>

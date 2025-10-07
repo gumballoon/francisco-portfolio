@@ -5,7 +5,6 @@ import IconGithub from "./assets/icon-top-github.svg?react";
 import IconLinkedIn from "./assets/icon-top-linkedIn.svg?react";
 import IconResume from "./assets/icon-top-resume.svg?react";
 import IconEmail from "./assets/icon-top-email.svg?react";
-import PhotoTopBanner from "./assets/photo-top-banner.jpg";
 import ShapeCorner from './assets/shape-corner.svg';
 import ShapeWavesBeige from './assets/shape-waves-beige.svg';
 import ShapeWavesTeal from './assets/shape-waves-teal.svg';
@@ -53,7 +52,7 @@ export default function TopBanner() {
                         <img src={ShapeWavesBeige} alt="" className='absolute z-20 -bottom-9 right-[15%] w-[10%] md:right-13 md:w-[17.5%] md:-bottom-10'/>
                         {/* Frame */}
                         <div className='absolute z-0 w-[60%] md:w-[100%] h-full border-2 border-gb-teal-500 top-5 md:top-3.5 left-[22.5%] md:-left-16.5'/>
-                        <img src={PhotoTopBanner} alt="" className='z-10 w-[60%] mx-auto md:w-[100%] md:-ml-20'/>
+                        <img src="/photo-top-banner.jpg" alt="Francisco Cristina portfolio photo, landscape" className='z-10 w-[60%] mx-auto md:w-[100%] md:-ml-20'/>
                     </div>
                 </div>
             </div>
