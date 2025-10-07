@@ -1,20 +1,37 @@
-import { useState, useRef, useEffect } from 'react';
-import './App.css'
+import { useState, useRef, useEffect } from "react";
+import "./App.css";
 
-import Navbar from './Navbar';
-import Menu from './Menu';
-import TopBanner from './TopBanner';
-import Projects from './Projects';
-import AboutMe from './AboutMe';
-import Skills from './Skills';
-import Contact from './Contact';
+import Preloader from "./Preloader";
+import Navbar from "./Navbar";
+import Menu from "./Menu";
+import TopBanner from "./TopBanner";
+import Projects from "./Projects";
+import AboutMe from "./AboutMe";
+import Skills from "./Skills";
+import Contact from "./Contact";
 
 export default function App() {
+  const [isContentLoaded, setIsContentLoaded] = useState(false);
+  const [isMenuVisible, setIsMenuVisible] = useState(false);
+
   useEffect(() => {
-    console.log("👋 Hey there! Curious about the code?\n Take a look around: https://github.com/gumballoon/francisco-portfolio");
+    console.log(
+      "👋 Hey there! Curious about the code?\n Take a look around: https://github.com/gumballoon/francisco-portfolio"
+    );
   }, []);
 
-  const [isMenuVisible, setIsMenuVisible] = useState(false);
+  function handleLoad() {
+    setTimeout(() => setIsContentLoaded(true), 2500);
+  }
+
+  useEffect(() => {
+    if (document.readyState === "complete") {
+      handleLoad();
+    } else {
+      window.addEventListener("load", handleLoad);
+      return () => window.removeEventListener("load", handleLoad);
+    }
+  }, []);
 
   const startRef = useRef(null);
   const projectsRef = useRef(null);
@@ -25,14 +42,14 @@ export default function App() {
   function scrollTo(ref) {
     setIsMenuVisible(false);
     ref.current?.scrollIntoView({
-      behavior: 'smooth',
-      block: 'start'
-    })
+      behavior: "smooth",
+      block: "start",
+    });
   }
 
-  return (
-    <div className='text-gb-navy-500 mx-auto min-h-[400px]'>
-      <div className={(isMenuVisible ? 'blur-[3px] lg:blur-none z-0' : '')}>
+  return isContentLoaded ? (
+    <div className="text-gb-navy-500 mx-auto min-h-[400px]">
+      <div className={isMenuVisible ? "blur-[3px] lg:blur-none z-0" : ""}>
         <div ref={startRef}>
           <TopBanner />
         </div>
@@ -49,8 +66,22 @@ export default function App() {
           <Contact />
         </div>
       </div>
-      < Navbar isMenuVisible={isMenuVisible} openMenu={() => setIsMenuVisible(true)} />
-      < Menu isMenuVisible={isMenuVisible} closeMenu={() => setIsMenuVisible(false)} startRef={startRef} projectsRef={projectsRef} aboutRef={aboutRef} skillsRef={skillsRef} contactRef={contactRef} scrollTo={scrollTo}/>
+      <Navbar
+        isMenuVisible={isMenuVisible}
+        openMenu={() => setIsMenuVisible(true)}
+      />
+      <Menu
+        isMenuVisible={isMenuVisible}
+        closeMenu={() => setIsMenuVisible(false)}
+        startRef={startRef}
+        projectsRef={projectsRef}
+        aboutRef={aboutRef}
+        skillsRef={skillsRef}
+        contactRef={contactRef}
+        scrollTo={scrollTo}
+      />
     </div>
-  )
+  ) : (
+    <Preloader />
+  );
 }

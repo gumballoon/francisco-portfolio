@@ -39,7 +39,7 @@ export default function TopBanner() {
 
                         < TopBannerIcon SVG={IconLinkedIn} description={'LinkedIn'} link={"https://www.linkedin.com/in/francisco-cristina/"} />
 
-                        < TopBannerIcon SVG={IconResume} description={'Resume'} link={"#"} />
+                        < TopBannerIcon SVG={IconResume} description={'Resume'} link={"/Francisco_Cristina_Resume.pdf"} />
 
                         < TopBannerIcon SVG={IconEmail} description={'Email'} link={"mailto:franciscocristina.dev@gmail.com"} />
                     </div>
