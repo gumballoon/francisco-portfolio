@@ -49,11 +49,11 @@ export default function TopBanner() {
                 <div className='z-0 bg-gb-navy-500 w-full mt-8 py-18 md:bg-transparent'>
                     <div className='relative flex items-center'>
                         <img src={ShapeCorner} alt="" className='absolute -top-5 right-[15%] w-[10%] md:right-12 md:w-[15%]'/>
-                        <img src={ShapeWavesTeal} alt="" className='absolute z-20 -top-5 md:-top-9 left-[15%] md:-left-23 w-[10%] md:w-[17.5%]'/>
-                        <img src={ShapeWavesBeige} alt="" className='absolute z-20 -bottom-9 right-[15%] w-[10%] md:right-13 md:w-[17.5%] md:-bottom-10'/>
                         {/* Frame */}
                         <div className='absolute z-0 w-[60%] md:w-[100%] h-full border-2 border-gb-teal-500 top-5 md:top-3.5 left-[22.5%] md:-left-16.5'/>
-                        <img src={PhotoTopBanner} alt="Francisco Cristina photo, landescape" className='z-10 w-[60%] mx-auto md:w-[100%] md:-ml-20'/>
+                        <img src={PhotoTopBanner} alt="Francisco Cristina photo, landescape" className='z-0 w-[60%] mx-auto md:w-[100%] md:-ml-20'/>
+                        <img src={ShapeWavesTeal} alt="" className='absolute z-0 -top-5 md:-top-9 left-[15%] md:-left-23 w-[10%] md:w-[17.5%]'/>
+                        <img src={ShapeWavesBeige} alt="" className='absolute z-0 -bottom-9 right-[15%] w-[10%] md:right-13 md:w-[17.5%] md:-bottom-10'/>
                     </div>
                 </div>
             </div>
