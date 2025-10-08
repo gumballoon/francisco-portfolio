@@ -85,7 +85,7 @@ export default function Projects() {
             </a>
             , focusing on full comment interactivity with nested threads,
             editable and deletable comments, and voting functionality. Built
-            with <span>React</span> and <span>Tailwind CSS</span>. Managing CRUD in a frontend-only project was complex and a milestone for learning forms and state. I got through it by diving in, experimenting, and figuring things out as I went.
+            with <span>React</span> and <span>Tailwind CSS</span>. Managing CRUD in a frontend-only project was complex and a milestone for learning forms and state. I got through it by diving in, experimenting, and learning as I went.
           </>
         }
       />
@@ -133,7 +133,7 @@ export default function Projects() {
             </a>
             , focusing on updating the UI in multiple places based on user
             actions, cart functionality, and responsive layout. Built with{" "}
-            <span>JavaScript</span> (vanilla) and <span>Bootstrap</span>. Updating the UI in multiple places while maintaining cart functionality was a major milestone in my learning. I tackled it by trying things out, fixing issues, and refining how everything worked together.
+            <span>JavaScript</span> (vanilla) and <span>Bootstrap</span>. Updating the UI in multiple places while maintaining cart functionality was a major milestone in my learning. I tackled it by trying things out, fixing issues, and refining how everything fit together.
           </>
         }
       />
@@ -150,7 +150,7 @@ export default function Projects() {
             transposes power chord progressions into open chords. Select your
             chords, get the capo fret, and play simplified open chord versions.
             Designed in <span>Figma</span> and built with{" "}
-            <span>JavaScript</span> (vanilla) and <span>Bootstrap</span>. My very first website, and a real learning experience. I explored, experimented, and learned by figuring things out as I built it.k
+            <span>JavaScript</span> (vanilla) and <span>Bootstrap</span>. My very first website, and a real learning experience. I explored, experimented, and learned by figuring things out as I built it.
           </>
         }
       />
