@@ -15,6 +15,33 @@ export default function Projects() {
         Projects
       </h2>
 
+          <Divider title={"full-stack"} isProject={true} />
+
+      <ProjectItem
+        image={yelpCamp}
+        title={"Yelp Camp"}
+        date={"June 2025"}
+        demo={"https://yelp-camp-qj1s.onrender.com"}
+        repo={"https://github.com/gumballoon/yelp-camp"}
+        description={
+          <>
+            Full-stack web app where users can create, edit, and review
+            campgrounds. Includes user authentication, image uploads, and
+            interactive maps. Built as a RESTful application with{" "}
+            <span>Node.js</span>, <span>Express</span>, <span>MongoDB</span>,{" "}
+            <span>Mongoose</span>, and <span>EJS</span>.  This was the capstone project of Colt Steele's{" "}
+            <a
+              href="https://www.udemy.com/course/the-web-developer-bootcamp/"
+              target="_blank"
+              className="link"
+            >
+              Web Developer Bootcamp 2025
+            </a>
+            . The biggest challenge was juggling all the new tools and concepts, applying what I learned as I went. For quick testing, log in with the demo account: <i>yadayada</i> <span className="text-gb-teal-500">/</span> <i>NoSoup4U!</i>
+          </>
+        }
+      />
+
       <Divider title={"react"} isProject={true} />
 
       <ProjectItem
@@ -35,7 +62,7 @@ export default function Projects() {
             </a>
             , focusing on interactive lightbox galleries, shopping cart state
             management, and responsive image carousels. Built with{" "}
-            <span>React</span> and <span>Tailwind CSS</span>.
+            <span>React</span> and <span>Tailwind CSS</span>. The hardest part was deciding how to structure the lightbox and components for different screen sizes. I managed it by building each part incrementally and focusing on reusability.
           </>
         }
       />
@@ -58,35 +85,7 @@ export default function Projects() {
             </a>
             , focusing on full comment interactivity with nested threads,
             editable and deletable comments, and voting functionality. Built
-            with <span>React</span> and <span>Tailwind CSS</span>.
-          </>
-        }
-      />
-
-      <Divider title={"full-stack"} isProject={true} />
-
-      <ProjectItem
-        image={yelpCamp}
-        title={"Yelp Camp"}
-        date={"June 2025"}
-        demo={"https://yelp-camp-qj1s.onrender.com"}
-        repo={"https://github.com/gumballoon/yelp-camp"}
-        description={
-          <>
-            Full-stack web app where users can create, edit, and review
-            campgrounds. Includes user authentication, image uploads, and
-            interactive maps. Built as a RESTful application with{" "}
-            <span>Node.js</span>, <span>Express</span>, <span>MongoDB</span>,{" "}
-            <span>Mongoose</span>, and <span>EJS</span>, following
-            industry-standard practices taught in Colt Steele's{" "}
-            <a
-              href="https://www.udemy.com/course/the-web-developer-bootcamp/"
-              target="_blank"
-              className="link"
-            >
-              Web Developer Bootcamp 2025
-            </a>
-            .
+            with <span>React</span> and <span>Tailwind CSS</span>. Managing CRUD in a frontend-only project was complex and a milestone for learning forms and state. I got through it by diving in, experimenting, and figuring things out as I went.
           </>
         }
       />
@@ -111,7 +110,7 @@ export default function Projects() {
             </a>
             , focusing on interactive pledges, state updates, responsive design,
             and dynamic DOM manipulation. Built with <span>JavaScript</span>{" "}
-            (vanilla) and <span>Bootstrap</span>.
+            (vanilla) and <span>Bootstrap</span>. The biggest challenge was managing the pledge forms and updating the live stats. I handled it by testing, adjusting, and figuring out how each piece should work together.
           </>
         }
       />
@@ -134,7 +133,7 @@ export default function Projects() {
             </a>
             , focusing on updating the UI in multiple places based on user
             actions, cart functionality, and responsive layout. Built with{" "}
-            <span>JavaScript</span> (vanilla) and <span>Bootstrap</span>.
+            <span>JavaScript</span> (vanilla) and <span>Bootstrap</span>. Updating the UI in multiple places while maintaining cart functionality was a major milestone in my learning. I tackled it by trying things out, fixing issues, and refining how everything worked together.
           </>
         }
       />
@@ -151,7 +150,7 @@ export default function Projects() {
             transposes power chord progressions into open chords. Select your
             chords, get the capo fret, and play simplified open chord versions.
             Designed in <span>Figma</span> and built with{" "}
-            <span>JavaScript</span> (vanilla) and <span>Bootstrap</span>.
+            <span>JavaScript</span> (vanilla) and <span>Bootstrap</span>. My very first website, and a real learning experience. I explored, experimented, and learned by figuring things out as I built it.k
           </>
         }
       />

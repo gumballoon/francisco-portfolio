@@ -14,7 +14,7 @@ export default function Contact() {
                 <div className='md:col-'>
                     <h2 className="poppins text-3xl font-bold leading-normal tracking-wider md:text-[2.25rem] xl:text-[2.5rem] transition-all duration-300">Contact</h2>
                     
-                    < ContactItem SVG={IconEmail} description={'Email'} title={'franciscocristina.dev@gmail.com'} link={'mailto:franciscocristina.dev@gmail.com'} />
+                    < ContactItem SVG={IconEmail} description={'Email'} title={'franciscocristina.dev@gmail.com'} link={'mailto:franciscocristina.dev@gmail.com'} />k
                     
                     < ContactItem SVG={IconLinkedIn} description={'LinkedIn'} title={'/francisco-cristina'} link={'https://www.linkedin.com/in/francisco-cristina/'} />
                 </div>
