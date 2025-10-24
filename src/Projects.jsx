@@ -2,6 +2,7 @@ import Divider from "./Divider";
 import ProjectItem from "./ProjectItem";
 
 import yelpCamp from "./assets/image-project-yelp.png";
+import weather from "./assets/image-project-weather.png";
 import eCommerce from "./assets/image-project-e-commerce.png";
 import comments from "./assets/image-project-comments.png";
 import crowdfunding from "./assets/image-project-crowdfunding.png";
@@ -43,6 +44,28 @@ export default function Projects() {
       />
 
       <Divider title={"react"} isProject={true} />
+
+      <ProjectItem
+        image={weather}
+        title={"Weather App"}
+        date={"October 2025"}
+        demo={"https://gumballoon.github.io/weather-app/"}
+        repo={"https://github.com/gumballoon/weather-app"}
+        description={
+          <>
+            Challenge from{" "}
+            <a
+              href="https://www.frontendmentor.io/challenges/weather-app-K1FhddVm49"
+              target="_blank"
+              className="link"
+            >
+              Frontend Mentor
+            </a>
+            , focusing on real-time weather data integration via the Open-Meteo API, location search functionality, 7-day and hourly forecasts, and unit conversion. Built with{" "}
+            <span>React</span> and <span>Tailwind CSS</span>. I started by nailing the functionality first, making sure every API call was handled correctly and the state was efficient and predictable. With the core logic solid, I refined the UI to make the experience clean, fast, and intuitive.
+          </>
+        }
+      />
 
       <ProjectItem
         image={eCommerce}
