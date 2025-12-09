@@ -30,7 +30,7 @@ export default function AboutMe() {
                         My goal is to join a team where I can grow as a frontend or full-stack developer while combining <span>creative thinking</span> with <span>attention to detail</span> in every project.
                     </p>
 
-                    <a href="/Francisco_Cristina_Resume.pdf" target="_blank" className='border-3 border-gb-beige-500 rounded-lg px-2 py-0.5 flex items-center w-max hover:cursor-pointer hover:border-gb-teal-500 group transition-all duration-300 group'>
+                    <a href="/FranciscoCristina_Resume_V4.pdf" target="_blank" className='border-3 border-gb-beige-500 rounded-lg px-2 py-0.5 flex items-center w-max hover:cursor-pointer hover:border-gb-teal-500 group transition-all duration-300 group'>
                         <span>my resume</span>
                         < IconArrow className="arrow ml-1 w-2 h-2 group-hover:-mt-1 transition-all duration-200" />
                     </a>
