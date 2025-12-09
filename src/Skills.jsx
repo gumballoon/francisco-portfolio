@@ -1,11 +1,11 @@
 import Divider from "./Divider";
 import SkillsIcon from "./SkillsIcon";
 
+import IconTypeScript from "./assets/icon-skills-typescript.svg?react";
 import IconJavaScript from "./assets/icon-skills-javascript.svg?react";
 import IconHtml from "./assets/icon-skills-html.svg?react";
 import IconCss from "./assets/icon-skills-css.svg?react";
 import IconSql from "./assets/icon-skills-sql.svg?react";
-import IconPython from "./assets/icon-skills-python.svg?react";
 import IconReact from "./assets/icon-skills-react.svg?react";
 import IconTailwind from "./assets/icon-skills-tailwind.svg?react";
 import IconBootstrap from "./assets/icon-skills-bootstrap.svg?react";
@@ -33,10 +33,10 @@ export default function Skills() {
                     < Divider title={'languages'}/>
                     <div className="w-full grid grid-cols-5 gap-4 items-center justify-between mt-6 text-gb-neutral-500 text-sm">
                         < SkillsIcon SVG={IconJavaScript} width={'50%'} description={'JavaScript'}/>
+                        < SkillsIcon SVG={IconTypeScript} width={'50%'} description={'TypeScript'}/>
                         < SkillsIcon SVG={IconHtml} width={'50%'} description={'HTML5'}/>
                         < SkillsIcon SVG={IconCss} width={'50%'} description={'CSS3'}/>
                         < SkillsIcon SVG={IconSql} width={'45%'} description={'SQL'}/>
-                        < SkillsIcon SVG={IconPython} width={'50%'} description={'Python'}/>
                     </div>
                 </div>
 

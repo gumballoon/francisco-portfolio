@@ -23,7 +23,7 @@ export default function AboutMe() {
                     </p>
                     
                     <p className="mt-4">
-                        I’m also committed to <span>continuous growth</span>. I’ve completed Colt Steele’s <span><a href="https://www.udemy.com/course/the-web-developer-bootcamp/" target="_blank" className="link">Full-Stack Web Development</a></span> and <span><a href="https://www.udemy.com/course/the-ultimate-mysql-bootcamp-go-from-sql-beginner-to-expert/" target="_blank" className="link">MySQL</a></span> bootcamps, along with courses in Figma, Python, and other areas of web development. Currently I’m learning <span>TypeScript</span> and <span>Sass</span>. Each course and project builds on the last, helping me become a more <span>versatile</span> and <span>well-rounded developer</span>.
+                        I’m also committed to <span>continuous growth</span>. I’ve completed Colt Steele’s <span><a href="https://www.udemy.com/course/the-web-developer-bootcamp/" target="_blank" className="link">Full-Stack Web Development</a></span> and <span><a href="https://www.udemy.com/course/the-ultimate-mysql-bootcamp-go-from-sql-beginner-to-expert/" target="_blank" className="link">MySQL</a></span> bootcamps, along with courses in <span>TypeScript</span>, <span>Figma</span>, and other areas of web development. Currently I’m learning <span>Sass</span>. Each course and project builds on the last, helping me become a more <span>versatile</span> and <span>well-rounded developer</span>.
                     </p>
                     
                     <p className="my-4">
