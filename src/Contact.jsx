@@ -49,7 +49,7 @@ export default function Contact() {
                     <span className="font-normal">Inter</span>.
                 </p>
                 <p className="text-lg font-extralight xl:text-end">
-                    © Francisco Cristina 2025
+                    © Francisco Cristina 2026
                 </p>
                 </div>
             </div>
