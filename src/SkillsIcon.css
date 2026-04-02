@@ -14,6 +14,14 @@
     fill: #50828C;
 }
 
+.SkillsIcon svg#sass-icon:hover path {
+    fill: #6DB1BF;
+}
+
+.SkillsIcon svg#sourcetree-icon:hover path {
+    fill: #6DB1BF;
+}
+
 .SkillsIcon svg:hover stop[stop-color="#223843"] {
     stop-color: #6DB1BF;
 }

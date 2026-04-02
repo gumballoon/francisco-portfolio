@@ -6,18 +6,20 @@ import IconJavaScript from "./assets/icon-skills-javascript.svg?react";
 import IconHtml from "./assets/icon-skills-html.svg?react";
 import IconCss from "./assets/icon-skills-css.svg?react";
 import IconSql from "./assets/icon-skills-sql.svg?react";
+import IconVue from "./assets/icon-skills-vue.svg?react";
 import IconReact from "./assets/icon-skills-react.svg?react";
 import IconTailwind from "./assets/icon-skills-tailwind.svg?react";
-import IconBootstrap from "./assets/icon-skills-bootstrap.svg?react";
+import IconSass from "./assets/icon-skills-sass.svg?react";
 import IconFigma from "./assets/icon-skills-figma.svg?react";
 import IconNode from "./assets/icon-skills-node.svg?react";
 import IconExpress from "./assets/icon-skills-express.svg?react";
 import IconMongo from "./assets/icon-skills-mongo.svg?react";
 import IconMongoose from "./assets/icon-skills-mongoose.svg?react";
 import IconMySql from "./assets/icon-skills-mysql.svg?react";
-import IconVsCode from "./assets/icon-skills-vscode.svg?react";
+import IconClaude from "./assets/icon-skills-claude.svg?react";
 import IconGit from "./assets/icon-skills-git.svg?react";
 import IconGithub from "./assets/icon-skills-github.svg?react";
+import IconSourcetree from "./assets/icon-skills-sourcetree.svg?react";
 import IconNotion from "./assets/icon-skills-notion.svg?react";
 
 export default function Skills() {
@@ -42,10 +44,11 @@ export default function Skills() {
 
                 <div>
                     < Divider title={'frontend'}/>
-                    <div className="w-full grid grid-cols-4 gap-4 items-center justify-between mt-6 px-5 text-gb-neutral-500 text-sm">
+                    <div className="w-full grid grid-cols-5 gap-4 items-center justify-between mt-6 px-5 text-gb-neutral-500 text-sm">
+                        < SkillsIcon SVG={IconVue} width={'55%'} description={'Vue'}/>
                         < SkillsIcon SVG={IconReact} width={'55%'} description={'React'}/>
                         < SkillsIcon SVG={IconTailwind} width={'55%'} description={'TailwindCSS'}/>
-                        < SkillsIcon SVG={IconBootstrap} width={'55%'} description={'Bootstrap'}/>
+                        < SkillsIcon SVG={IconSass} width={'55%'} description={'Sass'}/>
                         < SkillsIcon SVG={IconFigma} width={'50%'} description={'Figma'}/>
                     </div>
                 </div>
@@ -63,10 +66,11 @@ export default function Skills() {
 
                 <div>
                     < Divider title={'other'}/>
-                    <div className="w-full grid grid-cols-4 gap-4 items-center justify-between mt-6 px-4 text-gb-neutral-500 text-sm">
-                        < SkillsIcon SVG={IconVsCode} width={'50%'} description={'VS Code'}/>
+                    <div className="w-full grid grid-cols-5 gap-4 items-center justify-between mt-6 px-4 text-gb-neutral-500 text-sm">
+                        < SkillsIcon SVG={IconClaude} width={'50%'} description={'Claude'}/>
                         < SkillsIcon SVG={IconGit} width={'50%'} description={'Git'}/>
                         < SkillsIcon SVG={IconGithub} width={'50%'} description={'Github'}/>
+                        < SkillsIcon SVG={IconSourcetree} width={'50%'} description={'Sourcetree'}/>
                         < SkillsIcon SVG={IconNotion} width={'50%'} description={'Notion'}/>
                     </div>
                 </div>

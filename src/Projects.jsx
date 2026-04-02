@@ -1,11 +1,11 @@
 import Divider from "./Divider";
 import ProjectItem from "./ProjectItem";
 
-import yelpCamp from "./assets/image-project-yelp.png";
+import typing from "./assets/image-project-typing.png"
+import countries from "./assets/image-project-countries.png";
 import weather from "./assets/image-project-weather.png";
 import eCommerce from "./assets/image-project-e-commerce.png";
-import comments from "./assets/image-project-comments.png";
-import crowdfunding from "./assets/image-project-crowdfunding.png";
+import yelpCamp from "./assets/image-project-yelp.png";
 import cart from "./assets/image-project-cart.png";
 import capoot from "./assets/image-project-capoot.png";
 
@@ -16,29 +16,48 @@ export default function Projects() {
         Projects
       </h2>
 
-          <Divider title={"full-stack"} isProject={true} />
+      <Divider title={"vue"} isProject={true} />
 
       <ProjectItem
-        image={yelpCamp}
-        title={"Yelp Camp"}
-        date={"June 2025"}
-        demo={"https://yelp-camp-qj1s.onrender.com"}
-        repo={"https://github.com/gumballoon/yelp-camp"}
+        image={typing}
+        title={"Typing Speed Test"}
+        date={"February 2026"}
+
+        demo={"https://gumballoon.github.io/typing-speed-test/"}
+        repo={"https://github.com/gumballoon/typing-speed-test"}
         description={
           <>
-            Full-stack web app where users can create, edit, and review
-            campgrounds. Includes user authentication, image uploads, and
-            interactive maps. Built as a RESTful application with{" "}
-            <span>Node.js</span>, <span>Express</span>, <span>MongoDB</span>,{" "}
-            <span>Mongoose</span>, and <span>EJS</span>.  This was the capstone project of Colt Steele's{" "}
+            Challenge from{" "}
             <a
-              href="https://www.udemy.com/course/the-web-developer-bootcamp/"
+              href="https://www.frontendmentor.io/challenges/typing-speed-test"
               target="_blank"
               className="link"
             >
-              Web Developer Bootcamp 2025
+              Frontend Mentor
             </a>
-            . The biggest challenge was juggling all the new tools and concepts, applying what I learned as I went. For quick testing, log in with the demo account: <i>yadayada</i> <span className="text-gb-teal-500">/</span> <i>NoSoup4U!</i>
+            , featuring a real-time typing test with WPM and accuracy tracking, difficulty selection, and dual test modes. Includes character-level visual feedback, personal best tracking with localStorage, responsive design, and modern <span>Vue 3</span> with <span>Vuex</span> state management and <span>Tailwind CSS</span> styling. This project helped me further strengthen my Vue skills, particularly around real-time state updates and reactive UI feedback.
+          </>
+        }
+      />
+
+      <ProjectItem
+        image={countries}
+        title={"Countries Explorer"}
+        date={"January 2026"}
+
+        demo={"https://gumballoon.github.io/countries-app/"}
+        repo={"https://github.com/gumballoon/countries-app/"}
+        description={
+          <>
+            Challenge from{" "}
+            <a
+              href="https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher-5cacc469fec04111f7b848ca"
+              target="_blank"
+              className="link"
+            >
+              Frontend Mentor
+            </a>
+            , focusing on a countries explorer with search, region filtering, and detailed country views with border navigation. Built with <span>Vue 3 Composition API</span>, <span>Vuex</span> for state management, and <span>Vue Router</span> for navigation between views. Includes dark/light mode toggle, responsive design, and <span>Tailwind CSS</span> styling. As my first Vue project, it was a great challenge tackling routing, API integration, and state management all at once. Successfully bringing everything together made it a particularly rewarding build.
           </>
         }
       />
@@ -90,53 +109,34 @@ export default function Projects() {
         }
       />
 
+      <Divider title={"full-stack"} isProject={true} />
+
       <ProjectItem
-        image={comments}
-        title={"Interactive Comments"}
-        date={"August 2025"}
-        demo={"https://gumballoon.github.io/interactive-comments-section/"}
-        repo={"https://github.com/gumballoon/interactive-comments-section"}
+        image={yelpCamp}
+        title={"Yelp Camp"}
+        date={"June 2025"}
+        demo={"https://yelp-camp-qj1s.onrender.com"}
+        repo={"https://github.com/gumballoon/yelp-camp"}
         description={
           <>
-            Challenge from{" "}
+            Full-stack web app where users can create, edit, and review
+            campgrounds. Includes user authentication, image uploads, and
+            interactive maps. Built as a RESTful application with{" "}
+            <span>Node.js</span>, <span>Express</span>, <span>MongoDB</span>,{" "}
+            <span>Mongoose</span>, and <span>EJS</span>.  This was the capstone project of Colt Steele's{" "}
             <a
-              href="https://www.frontendmentor.io/challenges/interactive-comments-section-iG1RugEG9"
+              href="https://www.udemy.com/course/the-web-developer-bootcamp/"
               target="_blank"
               className="link"
             >
-              Frontend Mentor
+              Web Developer Bootcamp 2025
             </a>
-            , focusing on full comment interactivity with nested threads,
-            editable and deletable comments, and voting functionality. Built
-            with <span>React</span> and <span>Tailwind CSS</span>. Managing CRUD in a frontend-only project was complex and a milestone for learning forms and state. I got through it by diving in, experimenting, and learning as I went.
+            . The biggest challenge was juggling all the new tools and concepts, applying what I learned as I went. For quick testing, log in with the demo account: <i>yadayada</i> <span className="text-gb-teal-500">/</span> <i>NoSoup4U!</i>
           </>
         }
       />
 
       <Divider title={"vanilla js"} isProject={true} />
-
-      <ProjectItem
-        image={crowdfunding}
-        title={"Crowdfunding Product Page"}
-        date={"May 2025"}
-        demo={"https://gumballoon.github.io/crowdfunding-product-page/"}
-        repo={"https://github.com/gumballoon/crowdfunding-product-page"}
-        description={
-          <>
-            Challenge from{" "}
-            <a
-              href="https://www.frontendmentor.io/challenges/crowdfunding-product-page-7uvcZe7ZR"
-              target="_blank"
-              className="link"
-            >
-              Frontend Mentor
-            </a>
-            , focusing on interactive pledges, state updates, responsive design,
-            and dynamic DOM manipulation. Built with <span>JavaScript</span>{" "}
-            (vanilla) and <span>Bootstrap</span>. The biggest challenge was managing the pledge forms and updating the live stats. I handled it by testing, adjusting, and figuring out how each piece should work together.
-          </>
-        }
-      />
 
       <ProjectItem
         image={cart}

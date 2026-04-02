@@ -23,14 +23,14 @@ export default function AboutMe() {
                     </p>
                     
                     <p className="mt-4">
-                        I’m also committed to <span>continuous growth</span>. I’ve completed Colt Steele’s <span><a href="https://www.udemy.com/course/the-web-developer-bootcamp/" target="_blank" className="link">Full-Stack Web Development</a></span> and <span><a href="https://www.udemy.com/course/the-ultimate-mysql-bootcamp-go-from-sql-beginner-to-expert/" target="_blank" className="link">MySQL</a></span> bootcamps, along with courses in <span>TypeScript</span>, <span>Figma</span>, and other areas of web development. Currently I’m learning <span>Sass</span>. Each course and project builds on the last, helping me become a more <span>versatile</span> and <span>well-rounded developer</span>.
+                        I’m also committed to <span>continuous growth</span>. Most recently I've completed Maximilian Schwarzmüller's course <span><a href="https://www.udemy.com/course/vuejs-2-the-complete-guide/" target="_blank" className="link">Vue - The Complete Guide</a></span>. I’ve also finished Colt Steele’s <span><a href="https://www.udemy.com/course/the-web-developer-bootcamp/" target="_blank" className="link">Full-Stack Web Development</a></span> and <span><a href="https://www.udemy.com/course/the-ultimate-mysql-bootcamp-go-from-sql-beginner-to-expert/" target="_blank" className="link">MySQL</a></span> bootcamps, along with courses in <span>TypeScript</span>, <span>Figma</span>, and other areas of web development. Each course and project builds on the last, helping me become a more <span>versatile</span> and <span>well-rounded developer</span>.
                     </p>
                     
                     <p className="my-4">
-                        My goal is to join a team where I can grow as a frontend or full-stack developer while combining <span>creative thinking</span> with <span>attention to detail</span> in every project.
+                        Since the beginning of 2026, I’ve been working as a <span>Junior Web Developer</span> at <span><a href="https://www.inm.pt/en" target="_blank" className="link">Innovation Makers</a></span>, building web solutions within the financial sector.
                     </p>
 
-                    <a href="/FranciscoCristina_Resume_V4.pdf" target="_blank" className='border-3 border-gb-beige-500 rounded-lg px-2 py-0.5 flex items-center w-max hover:cursor-pointer hover:border-gb-teal-500 group transition-all duration-300 group'>
+                    <a href="/FranciscoCristina_Resume_2026.pdf" target="_blank" className='border-3 border-gb-beige-500 rounded-lg px-2 py-0.5 flex items-center w-max hover:cursor-pointer hover:border-gb-teal-500 group transition-all duration-300 group'>
                         <span>my resume</span>
                         < IconArrow className="arrow ml-1 w-2 h-2 group-hover:-mt-1 transition-all duration-200" />
                     </a>
